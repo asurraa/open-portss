@@ -1,1 +1,0 @@
-# minimal-node-ts-starter
