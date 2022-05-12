@@ -1,20 +1,27 @@
 {
-  "name": "minimal-node-ts-starter",
+  "name": "open-portss",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "./bin/bin.js",
   "repository": "git@github.com:lyhourchhen/minimal-node-ts-starter.git",
   "author": "lyhourchhen <ukamilove66@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "tsc -p tsconfig.json"
+    "build:dev": "tsc -p tsconfig.json",
+    "build:bin": "npx ncc build src/index.ts -o bin/bin.js",
+    "build:prod": "yarn build:dev && rm -rf bin && mkdir bin && cp -r dist/index.js bin/bin.js && chmod +x bin/bin.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.30",
     "@types/typescript": "^2.0.0",
+    "@vercel/ncc": "^0.33.4",
     "nodemon": "^2.0.16",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
 }

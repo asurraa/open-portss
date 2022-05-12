@@ -133,6 +133,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/ncc@npm:^0.33.4":
+  version: 0.33.4
+  resolution: "@vercel/ncc@npm:0.33.4"
+  dependencies:
+    node-gyp: latest
+  bin:
+    ncc: dist/ncc/cli.js
+  checksum: e6093efc3b970c3a64797e4ecefa7e58f22873e34985fc6f53d538032fa94321511edef59f937e6ff292dd30e53b86235968309ca57dae16ee4e6bbfeefaff6e
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -259,18 +270,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"blockchain@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "blockchain@workspace:."
-  dependencies:
-    "@types/node": ^17.0.30
-    "@types/typescript": ^2.0.0
-    nodemon: ^2.0.16
-    ts-node: ^10.7.0
-    typescript: ^4.6.4
-  languageName: unknown
-  linkType: soft
-
 "boxen@npm:^5.0.0":
   version: 5.1.2
   resolution: "boxen@npm:5.1.2"
@@ -370,6 +369,13 @@ __metadata:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
   checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "chalk@npm:5.0.1"
+  checksum: 7b45300372b908f0471fbf7389ce2f5de8d85bb949026fd51a1b95b10d0ed32c7ed5aab36dd5e9d2bf3191867909b4404cef75c5f4d2d1daeeacd301dd280b76
   languageName: node
   linkType: hard
 
@@ -1352,6 +1358,22 @@ __metadata:
   checksum: cd0a88501333edd640d95f0d2700fbde6bff20b3d4d9bdc521bdd31af0656b5706570d6c6afe532045a20bb8dc0849f8332d6f2a416e0ba6d3d3b98806c7db68
   languageName: node
   linkType: hard
+
+"open-portss@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "open-portss@workspace:."
+  dependencies:
+    "@types/node": ^17.0.30
+    "@types/typescript": ^2.0.0
+    "@vercel/ncc": ^0.33.4
+    chalk: ^5.0.1
+    nodemon: ^2.0.16
+    ts-node: ^10.7.0
+    typescript: ^4.6.4
+  bin:
+    open-portss: ./bin/bin.js
+  languageName: unknown
+  linkType: soft
 
 "p-cancelable@npm:^1.0.0":
   version: 1.1.0
