@@ -108,7 +108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^17.0.30":
+"@types/node@npm:*, @types/node@npm:17.0.30":
   version: 17.0.30
   resolution: "@types/node@npm:17.0.30"
   checksum: b3cd2db6474aae3ddac5a312f340f6e4ca200429371e62cb74698fe7f23d7414d0200f643204ddfaa797846328539359e3797d7f2baaf3cdd643b159cf53baa6
@@ -124,7 +124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/typescript@npm:^2.0.0":
+"@types/typescript@npm:2.0.0":
   version: 2.0.0
   resolution: "@types/typescript@npm:2.0.0"
   dependencies:
@@ -133,7 +133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/ncc@npm:^0.33.4":
+"@vercel/ncc@npm:0.33.4":
   version: 0.33.4
   resolution: "@vercel/ncc@npm:0.33.4"
   dependencies:
@@ -1282,7 +1282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.16":
+"nodemon@npm:2.0.16":
   version: 2.0.16
   resolution: "nodemon@npm:2.0.16"
   dependencies:
@@ -1363,13 +1363,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "open-portss@workspace:."
   dependencies:
-    "@types/node": ^17.0.30
-    "@types/typescript": ^2.0.0
-    "@vercel/ncc": ^0.33.4
+    "@types/node": 17.0.30
+    "@types/typescript": 2.0.0
+    "@vercel/ncc": 0.33.4
     chalk: ^5.0.1
-    nodemon: ^2.0.16
-    ts-node: ^10.7.0
-    typescript: ^4.6.4
+    nodemon: 2.0.16
+    ts-node: 10.7.0
+    typescript: 4.6.4
   bin:
     open-portss: ./bin/bin.js
   languageName: unknown
@@ -1744,7 +1744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.7.0":
+"ts-node@npm:10.7.0":
   version: 10.7.0
   resolution: "ts-node@npm:10.7.0"
   dependencies:
@@ -1798,7 +1798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:^4.6.4":
+"typescript@npm:*, typescript@npm:4.6.4":
   version: 4.6.4
   resolution: "typescript@npm:4.6.4"
   bin:
@@ -1808,7 +1808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
   bin:
