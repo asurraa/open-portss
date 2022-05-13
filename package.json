@@ -13,12 +13,12 @@
     "build:prod": "yarn build:dev && rm -rf bin && mkdir bin && cp -r dist/index.js bin/bin.js && chmod +x bin/bin.js"
   },
   "devDependencies": {
-    "@types/node": "^17.0.30",
-    "@types/typescript": "^2.0.0",
-    "@vercel/ncc": "^0.33.4",
-    "nodemon": "^2.0.16",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.4"
+    "@types/node": "17.0.30",
+    "@types/typescript": "2.0.0",
+    "@vercel/ncc": "0.33.4",
+    "nodemon": "2.0.16",
+    "ts-node": "10.7.0",
+    "typescript": "4.6.4"
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
